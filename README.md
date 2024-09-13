@@ -2,6 +2,30 @@
 
 The Stock Discussion Platform Backend is a RESTful API designed to facilitate a stock market discussion platform. It supports user authentication, post creation and management, commenting, and liking functionality. Users can create, view, update, and delete posts related to stock trends, while also interacting through comments and likes. The API includes features for filtering and sorting posts, as well as pagination for efficient data handling.
 
+
+## Acknowledgements
+
+- Express.js: For providing a robust framework for building the API.
+- Mongoose: For simplifying MongoDB interactions and schema modeling.
+- dotenv: For managing environment variables securely.
+- jsonwebtoken: For implementing JWT-based authentication.
+- Nodemon: For automatic server reloading during development.
+- Jest: For providing a framework to write and run tests.
+- bcrypt: For enabling secure password hashing and encryption.
+
+## Features
+
+- User Authentication and Authorization: Secure user registration, login, and token-based authentication using JWT.
+- Post Management: Create, update, delete, and retrieve posts related to stock discussions.
+- Commenting System: Add and delete comments on posts to facilitate discussion.
+- Like System: Like and unlike posts to show engagement.
+- Pagination: Retrieve posts with pagination to handle large datasets efficiently.
+- Filtering and Sorting: Search, filter, and sort posts based on various criteria such as stock symbol, tags, and date.
+- Real-Time Updates (Optional): WebSocket support for real-time updates on new comments or likes.
+- Error Handling: Comprehensive error handling for different scenarios and invalid requests.
+- Data Validation: Input validation and sanitization to ensure data integrity and security.
+
+
 ## 📚 Documentation
 
 ### Environment Setup
