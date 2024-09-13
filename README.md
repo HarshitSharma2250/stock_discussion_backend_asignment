@@ -112,7 +112,7 @@ The Stock Discussion Platform Backend is a RESTful API designed to facilitate a 
 
 Initialize the server with:
 
- - javascript
+  ``` javascript
 const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config();
@@ -145,6 +145,10 @@ server.listen(PORT, async () => {
 });
 
 
+
+
+
+```
 - Configuration
 - Environment Variables
 The project uses environment variables stored in a .env file for sensitive information, such as the JWT secret key. Ensure to create a .env file in the root directory with the following variables:
