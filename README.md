@@ -79,6 +79,11 @@ The Stock Discussion Platform Backend is a RESTful API designed to facilitate a 
 - **POST** `/api/posts/:postId/like`: Like a post (authenticated).
 - **DELETE** `/api/posts/:postId/like`: Unlike a post (authenticated).
 
+### Utils(.env)
+- 🔑 **PORT**      : `3000`
+- 🔑 **MONGO_URL** : `mongodb+srv://sharmaharshit295:harshit225044@cluster0.rs4eabk.mongodb.net/StockDiscussion?retryWrites=true&w=majority&appName=Cluster0`
+- 🔑 **TOKEN_KEY** : `masai`
+
 ### Server Setup (index.js)
 
 Initialize the server with:
